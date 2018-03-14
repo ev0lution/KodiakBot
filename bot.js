@@ -8,6 +8,10 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === 'ping') {
     	message.reply('pong');
+        
+ client.command('message', message => {
+     if (message.content ==='help'
+         message.reply('Hi');
   	}
 });
 

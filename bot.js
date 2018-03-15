@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'help') {
+    if (message.content === '!help') {
     	message.reply('Hello, I am Kodiak. Developed by @Ev0!');
        
   	}
